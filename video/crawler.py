@@ -46,7 +46,7 @@ class Crawler():
         except:
             print('No data is saved from this batch')
         with open('test_problem_about_list.log', 'a+') as f:
-            f.write(df_batch + '\n')
+            f.write(str(df_batch) + '\n')
         return df_batch
 
 
