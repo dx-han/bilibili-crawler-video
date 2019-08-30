@@ -11,8 +11,6 @@ Crawler calls API and store data with json into database. I store basic info of 
 - [Folder Structure](#folder-structure)
 
 
-This is a crawler automatically running on the server. The purpose is to crawl useful social network data from Zhihua. Since the limited storage of server, all data will be stored into csv files instead of database.
-
 ## Installation
 
 ## Get Started
