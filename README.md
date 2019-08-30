@@ -16,6 +16,13 @@ This is a crawler automatically running on the server. The purpose is to crawl u
 ## Installation
 
 ## Get Started
+```
+python run.py --go True
+```
+
+
+## Folder Structure
+```
 video/
     |-- automatic_read.sh
     |-- config.py
@@ -23,10 +30,7 @@ video/
     |-- models.py
     |-- run.py
     |-- tables.py
-
-
-
-## Folder Structure
+```
 
 
 
