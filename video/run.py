@@ -27,6 +27,10 @@ if __name__ == '__main__':
                 batch_size = BATCH_SIZE
             )
             batch_result = c.get_info()
+            
+            if len(batch_result) == 0:
+                continue
+
             s = Storage(
                 model = VideoData,
                 df = batch_result
