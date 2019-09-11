@@ -16,5 +16,5 @@ PATH_DATA = '/home/ds/'
 
 # api
 CRAWLER_URL = os.environ.get('CRAWLER_URL')
-START_ID = 21637060
+START_ID = 23400731
 BATCH_SIZE = 100

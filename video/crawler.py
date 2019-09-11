@@ -24,7 +24,7 @@ class Crawler():
             except:
                 print('HTML get error.')
                 with open('unread_url.log', 'a+') as f:
-                    f.write(html + '\n')
+                    f.write(html.json() + '\n')
                 continue
             time.sleep(random.random()/2)
             if html.status_code == 200:
